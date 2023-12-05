@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungrezy - Gain some good calories</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Hungrezy</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="login">Login</a></li>
+                <li><a href="Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Delicious Food Delivered to Your Doorstep</h2>
+        <p>Explore our menu and order your favorite meals online.</p>
+        <a href="#menu">View Menu</a>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <!-- Add your menu items here -->
+        <div class="menu-item">
+            <img src="burger.jpg" alt="Burger">
+            <h3>Chicken Burger</h3>
+            <span>Rs 120</span><br>
+            
+            <button>Order</button>
+        </br>
+            <img src="pizza.jpg" alt="Pizza">
+            <h3>Pizza</h3>
+            <span>Rs 120</span><br>
+            <button>Order</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Hungrezy</h2>
+        <p>Welcome to Hungrezy, where we strive to provide the best dining experience with our delicious and diverse menu.</p>
+    </section>
+
+  
+
+   <section class="content">
+  
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or suggestions? Reach out to us!</p>
+        
+        <form action="contact_process.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</section>
+
+
+    <footer>
+        <p>Hungrezy | Designed by Gautam & Mangirish</p>
+    </footer>
+
+</body>
+
+</html>
